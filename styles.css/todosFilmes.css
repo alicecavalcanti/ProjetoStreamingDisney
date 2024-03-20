@@ -1,0 +1,43 @@
+.titulo {
+  font-size: 5rem;
+  color: white;
+  position: relative;
+  margin-left: 1.8vw;
+  bottom: -6vw;
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  flex: 1;
+}
+
+.films {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1vw;
+  padding-top: 10vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 10vw;
+}
+
+.item-films img {
+  height: 10vw;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 5px 10px 8px rgba(0, 0, 0, 1);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  border: 3px solid transparent;
+  transform: scale(1);
+}
+.item-films img:hover {
+  transform: scale(1.1);
+  border-color: white; 
+}
+@media (max-width: 768px) {
+
+  /* Ajusta o layout para telas menores */
+  .container {
+      flex-direction: column;
+  }
+}

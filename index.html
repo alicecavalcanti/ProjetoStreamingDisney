@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,42 +8,44 @@
     <link rel="stylesheet" href="/styles.css/reset.css">
     <link rel="stylesheet" href="./styles.css/header.css">
     <link rel="stylesheet" href="./styles.css/footer.css">
+    <link rel="stylesheet" href="./styles.css/home.css">
+    <link rel="stylesheet" href="./styles.css/todasSeries.css">
+    <link rel="stylesheet" href="./styles.css/global.css">
     <link rel="icon" href="/images/icons/disney-plus-svgrepo-com.svg" type="image icon disney">
 </head>
+
 <body>
     <header id="header">
         <nav>
             <div class="logo">
                 <a>
                     <img class="logo" src="./images/logo.svg" alt="Logo da disney">
-                    <a style="color: white; margin: 40px;" href="/components/filmeModelo.html"><h1>Filme modelo</h1></a>
-                    <a style="color: white;" href="/components/serieModelo.html"><h1>Série modelo</h1></a>
                 </a>
-            </div> 
+            </div>
             <ul>
                 <li class="todas_li">
                     <a href="">
-                    <img src="./images/icons/home-svgrepo-com.svg" alt="icone de home">
-                    <span>Início</span> 
+                        <img src="./images/icons/home-svgrepo-com.svg" alt="icone de home">
+                        <span>Início</span>
                     </a>
-                </li >
+                </li>
                 <li class="todas_li">
                     <a href="/components/todosFilmes.html">
-                    <img src="./images/icons/reel-2-svgrepo-com.svg" alt="icone de Filme">
-                    <span>Filmes</span> 
+                        <img src="./images/icons/reel-2-svgrepo-com.svg" alt="icone de Filme">
+                        <span>Filmes</span>
                     </a>
                 </li>
                 <li class="todas_li">
                     <a href="/components/todasSeries.html">
-                    <img src="./images/icons/tv-svgrepo-com.svg" alt="icone de serie">
-                    <span>Séries</span> 
+                        <img src="./images/icons/tv-svgrepo-com.svg" alt="icone de serie">
+                        <span>Séries</span>
                     </a>
                 </li>
                 <li class="todas_li">
                     <img src="../images/icons/magnifying-glass-backup-svgrepo-com.svg" alt="icone de pesquisa">
-                    <input type="text" placeholder="Pesquisar" href="./images/icons/magnifying-glass-backup-svgrepo-com.svg" >
+                    <input type="text" placeholder="Pesquisar" href="./images/icons/magnifying-glass-backup-svgrepo-com.svg">
                 </li>
-            </ul>  
+            </ul>
         </nav>
         <div class="perfil_user">
             <span>Alice</span>
@@ -50,44 +53,193 @@
         </div>
     </header>
     <main>
-        <h1 style="color: white; font-size: 200px; text-align: center;">HOME</h1>
-        <h1 style="color: white; font-size: 200px; text-align: center;">HOME</h1>
-        <h1 style="color: white; font-size: 200px; text-align: center;">HOME</h1>
-        <h1 style="color: white; font-size: 200px; text-align: center;">HOME</h1>
-        <h1 style="color: white; font-size: 200px; text-align: center;">HOME</h1>
-        <h1 style="color: white; font-size: 200px; text-align: center;">HOME</h1>
-        <h1 style="color: white; font-size: 200px; text-align: center;">HOME</h1>
+        <section class="section__filme__destaque">
+            <div class="section__filme__destaque__background">
+                <img class="img__background" src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/ed2921f7-da30-441b-82ec-7465f0d5e476/scale?aspectRatio=1.78&format=webp&width=1440" alt="Imagem do filme Aladdin">
+                <div class="gradiente"></div>
+            </div>
+            <div class="section__filme__destaque__descricoes">
+                <img class="nome__filme" src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/890e0b06-0d48-4b1f-b354-3e8cea77008d/trim?format=webp&max=800%7C300" alt="Nome do filme Aladdin como uma imagem">
+
+                <div class="informacoes__visuais">
+
+                    <div>
+                        <img src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/97C471DCE4E9681F206D5EB6E56C2139BBB6D6110569EDA2DB91872675F570BF/scale?format=webp&height=40" alt="icon para dizer que esse filme é livre para todos os públicos">
+
+                        <img src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/B8D865E2C27C15120BEA079C2490163A2BDAE0E41873483A29AF7AD0F78471D5/scale?format=webp&width=240" alt="icon para dizer que o filme é em HD">
+
+                        <img src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/656458F552CF2F626A33C340E36151D91F5339F62A26620DCFCAAA1E98B101CF/scale?format=webp&width=240" alt="icon para indicar que nesse filme tem legendas ocultas">
+                    </div>
+
+                    <p>1992 • 1 hora, 35 minutos • Família, fantasia</p>
+                    <p class="descricao"> Com a ajuda de um engraçado Gênio de 10 mil anos de idade, que vive mudando de forma, o malandro plebeu Aladdin e a confiante e inteligente Princesa Jasmine se juntam para enfrentar o malvado feiticeiro Jafar e acabar com seus planos de controlar o reino!</p>
+
+                </div>
+
+                <div class="botoes">
+                    <button class="botao__assistir">
+                        <span>Assistir</span>
+                    </button>
+                    <button class="botao__trailer">
+                        <a href="https://www.youtube.com/watch?v=jkdYkE1xgqQ">
+                            Trailer
+                        </a>
+
+                    </button>
+
+                </div>
+            </div>
+        </section>
+        <section class="section__filmes_recomendados">
+            <div class="subtitulo__colunas">
+                <h1>
+                    Recomendados para você
+                </h1>
+            </div>
+            <div class="films">
+                <a class="item-films" href="/components/filmeModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/15A4BC0BAD7442F99A2F6C2CE66B99C99E535BF9690A256DAB29C6EDF1B04866/scale?width=400&aspectRatio=1.78&format=jpeg" alt="capa para filme 101 dálmatas">
+                </a>
+                <a class="item-films" href="/components/filmeModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/17FDDDF0473CA8C0676B396F7A65F22DFF99011995883BE70C07F216DE1706BF/scale?width=400&aspectRatio=1.78&format=jpeg" alt="capa do filme vida de inseto"></a>
+                <a class="item-films" href="/components/filmeModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/3055574AA00584A3E2B290B16A58F1BAD474CBB9A5753530F90D1CE2B7319DA1/scale?width=400&aspectRatio=1.78&format=jpeg" alt="Capa do filme do Pateta"></a>
+                <a class="item-films" href="/components/filmeModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/69059B44A41458D13A5F47BBE7DB0880DD6BB8F250221B5F0266CE507D875338/scale?width=400&aspectRatio=1.78&format=jpeg" alt="Capa do filme do Aladdin"></a>
+                <a class="item-films" href="/components/filmeModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/FEF6E538FB86E83A8E16B864FE54CDA6F5C2229A9EAD5995BA91664B3EF0CBC8/scale?width=400&aspectRatio=1.78&format=jpeg" alt="Capa do filme ratatouille"></a>
+            </div>
+        </section>
+        <section class="section__top3">
+            <div class="subtitulo__colunas">
+                <h1>
+                    Top 3
+                </h1>
+            </div>
+            <div class="conteudo">
+                <div class="filmes">
+                    <div class="filmes_imagemDoTop">
+                        <svg id="rank-1" width="100%" height="100%" viewBox="-20 0 70 154" class="svg-icon svg-icon-rank-1 top-10-rank ">
+                            <path stroke="#595959" stroke-linejoin="square" stroke-width="4" d="M35.377 152H72V2.538L2 19.362v30.341l33.377-8.459V152z" fill="#11131c"></path>
+                        </svg>
+                        <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/3C398B1A019E1CD8A0B67FC1B48EC9BE6B6425B561C6C6F5D5DB05C9283A857A/scale?width=400&aspectRatio=0.71&format=jpeg" alt="capa do filme planeta dos macacos">
+                    </div>
+                    <div class="descricao">
+                        <p>Planeta dos macacos</p>
+                        <span>2014 - 2h11</span>
+                    </div>
+
+                </div>
+                <div class="filmes">
+                    <div class="filmes_imagemDoTop">
+                        <svg id="rank-2" width="100%" height="100%" viewBox="0 0 80 154" class="svg-icon svg-icon-rank-2 top-10-rank">
+                            <path stroke="#595959" stroke-linejoin="square" stroke-width="4" d="M3.72 152H113v-30.174H50.484l4.355-3.55 29.453-24.012c5.088-4.124 9.748-8.459 13.983-13.004 4.16-4.464 7.481-9.339 9.972-14.629 2.449-5.203 3.678-11.113 3.678-17.749 0-9.428-2.294-17.627-6.875-24.645-4.597-7.042-10.941-12.494-19.07-16.376C77.803 3.957 68.496 2 58.036 2 47.591 2 38.37 4.023 30.347 8.06c-8.015 4.032-14.457 9.578-19.352 16.654-4.492 6.493-7.389 13.803-8.693 21.952h34.055c1.236-3.52 3.398-6.52 6.459-8.97 3.54-2.834 8.277-4.224 14.147-4.224 5.93 0 10.552 1.537 13.76 4.681 3.181 3.12 4.791 7.024 4.791 11.594 0 4.151-1.16 7.934-3.468 11.298-2.192 3.194-5.987 7.124-11.405 11.84L3.72 122.465V152z" fill="#11131c">
+                            </path>
+                        </svg>
+                        <img src="https://occ-0-3851-3852.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABYqsRQWRTomgjY8Z8uC6CD3jBbuSPYQkxL43NbaHjZCaFgZ_VrLq3fpPFfu8KOQM2ljTfZ622fNjy8twE6nwKPpT-EDlVEwviNsGpwXm_CQ7WUbsM_ESxoNXq69JBk31XDH2ihCyqPwWBmnDz49YUTA71eEqxjTukMogX0PRFyqJoNDZIGLl-2PbPaXOojv1aiuqvpCDCAnKsFqxBCoGI9rewwRepwH_fUSzvI3DC-MXzDroIDrLG7b-mQCcWvO47u1SaoRJT4jGjGARby6g7QBRgfzeYw.webp?r=f35" alt="capa do filme cat & dog">
+                    </div>
+                    <div class="descricao">
+                        <p>Cat & dog</p>
+                        <span>2024 - 1h26</span>
+                    </div>
+                </div>
+                <div class="filmes">
+                    <div class="filmes_imagemDoTop">
+                        <svg id="rank-3" width="100%" height="100%" viewBox="0 0 80 154" class="svg-icon svg-icon-rank-3 top-10-rank">
+                            <path stroke="#595959" stroke-linejoin="square" stroke-width="4" d="M3.809 41.577h33.243c1.3-2.702 3.545-4.947 6.674-6.72 3.554-2.015 7.83-3.01 12.798-3.01 5.555 0 10.14 1.11 13.723 3.376 3.839 2.427 5.782 6.283 5.782 11.315 0 4.553-1.853 8.395-5.473 11.38-3.547 2.926-8.18 4.37-13.821 4.37H41.44v28.366h16.77c5.572 0 10.275 1.227 14.068 3.711 4.02 2.633 6.071 6.581 6.071 11.616 0 5.705-1.943 9.975-5.853 12.562-3.658 2.42-8.292 3.61-13.863 3.61-5.205 0-9.82-.94-13.827-2.836-3.698-1.75-6.32-4.272-7.785-7.529H2.33c2.096 12.089 7.761 21.65 17.028 28.78C29.242 148.175 42.594 152 59.476 152c10.706 0 20.175-1.783 28.42-5.337 8.185-3.528 14.575-8.486 19.208-14.884 4.595-6.346 6.896-13.938 6.896-22.837 0-6.952-1.93-13.494-5.81-19.666-3.815-6.07-9.68-10.367-17.683-12.908l-5.46-1.735 5.353-2.04c6.659-2.538 11.667-6.338 15.083-11.412 3.431-5.096 5.142-10.806 5.142-17.181 0-8.471-2.262-15.778-6.787-21.985-4.574-6.275-10.7-11.17-18.408-14.696C77.683 3.775 69.109 2 59.687 2 44.084 2 31.515 5.816 21.91 13.415c-9 7.119-15.025 16.486-18.101 28.162z" fill="#11131c">
+                            </path>
+                        </svg>
+                        <img src="https://occ-0-3851-3852.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABUU1nLZyxUAeD0c8soeTgGBMH2PJzAnn5pkdFmGf4-hY3-KM7AAvEhzdFrRcBqe-cZM3uOkOSvXTxKboLH6xmTZDTQ8egxaBf2FUbq-fPccStwJytTGngXiAZxp3RfoTl3TmrrweDMrE2gNsozH_TQkuxX3r6RpQNH_q91mvL5wyOvGPjWL8oRXJjIF4nsCwn4NiQN0U1hXXkwhqV3XyiLl42TjRHpShjnHbEbvmfIoidIRAyhWSPXLxIH3pJSHU3AgogeVfI26MjwsY4jDCiSyMN1fQNIPYjzK1t0lV4MrueF_wjugs_7sHNQ.jpg?r=c7d" alt="capa do filme Damsel">
+                    </div>
+                    <div class="descricao">
+                        <p>Damsel</p>
+                        <span>2024 - 1h50</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- o resto dos filmes - terceira section -->
+        <section>
+            <div class="subtitulo__colunas">
+                <h1>
+                    Filmes recentes
+                </h1>
+            </div>
+            <div class="films">
+                <a class="item-films" href="/components/filmeModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/C696DEB9B985C90EF0E88A60A21C4E4FE89EB2B5E4E8BC31B31EE75E2C493EA0/scale?width=400&aspectRatio=1.78&format=jpeg" alt="Capa do filme Alice no país das maravilhas"></a>
+                <a class="item-films" href="/components/filmeModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1AFB185805C717B316659B0037B3CA187DD69ED3B3223FF52995CCAB0DC195DC/scale?width=400&aspectRatio=1.78&format=jpeg" alt="Capa do filme carros"></a>
+                <a class="item-films" href="/components/filmeModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/0AF80E9D2A7D694ECE09B7C3CC2639ABCA027111575E256C159E85B38AC8AB2F/scale?width=400&aspectRatio=1.78&format=jpeg" alt="Capa do filme anastasia"></a>
+                <a class="item-films" href="/components/filmeModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/78D6AE2E7B258915D08A7113A05E709CCBFE04AA4BB5C58B275FEBB9ABE4FC53/badging?width=400&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal" alt="Capa do filme diário de um banana"></a>
+                <a class="item-films" href="/components/filmeModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4C611565C8A238B40A716F94C3D25A56F65DE5147AD279640FCD09E840F91332/scale?width=400&aspectRatio=1.78&format=jpeg" alt="Capa do filme a dama e o vagabundo"></a>
+            </div>
+            <div class="subtitulo__colunas">
+                <h1>
+                    Séries recentes
+                </h1>
+            </div>
+            <div class="films">
+                <a class="item-series" href="/components/serieModelo.html">
+                    <img class="item" src="https://www.publicitarioscriativos.com/wp-content/uploads/2019/07/logo-da-serie-do-loki-e-revelado-e-o-publico-nao-parece-feliz-com-o-resultado.png" alt="Capa da série loki"></a>
+                <a class="item-series" href="/components/serieModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B3F871A518A2372E46F208FBAE1174E8B59ED4D3FAACD8C7362B0BD39A1C6BE9/badging?width=400&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal" alt="Capa da série what is"></a>
+                <a class="item-series" href="/components/serieModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4826879538A92B52B2B316E2E9D5A1BEC5C774C094FF9F96E3265E0D4220E3E6/badging?width=400&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal" alt="Capa da série mandalorian"></a>
+                <a class="item-series" href="/components/serieModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/19DABB211BA25696476BE54D9677A53CAF4942A12A812A155DDC9D31B0E6F4B6/badging?width=400&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal" alt="Capa da série wanda vision"></a>
+                <a class="item-series" href="/components/serieModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4437CFF8143EAA2D03ABFA4DE380328393787F158D7D2F318D04A704324B5D94/scale?width=400&aspectRatio=1.78&format=jpeg" alt="Capa da série star mal"></a>
+                <a class="item-series" href="/components/serieModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/AF06E66D34F86AE316063034A840E4886FD1FB2AA029259E830D58F4DDC9B316/scale?width=400&aspectRatio=1.78&format=jpeg" alt="Capa da série casa da coruja"></a>
+                <a class="item-series" href="/components/serieModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7A1AD409E85E680EAB85940C428D43161FA711A06A71C730AC02CE2201B4FE8E/scale?width=400&aspectRatio=1.78&format=jpeg" alt="Capa da série gravity falls"></a>
+                <a class="item-series" href="/components/serieModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1B7FE678C10F1D17E95C75591E592485C79996758847E5ADB079590829B8ED5C/badging?width=400&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal" alt="Capa da série bad batch"></a>
+                <a class="item-series" href="/components/serieModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/BFE7E0028D6F4DACE529EBAD2B1A7AE6FE3A9E332FA8BE49B80916CA46CD07D6/badging?width=400&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal" alt="Capa da série perco jackson">
+                </a>
+                <a class="item-series" href="/components/serieModelo.html">
+                    <img class="item" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F93B2B13455A6ADCDC46B0A7B2C6682926442CDE3E11C4F6E4826C821FEF2ADF/scale?width=400&aspectRatio=1.78&format=jpeg" alt="Capa da série art attack"></a>
+                <div>
+                </div>
+
+
+        </section>
+        <h1>HOME</h1>
     </main>
     <footer class="footer">
-        <div class="logo">
-            <a>
-                <img class="logo" src="./images/logo.svg" alt="Logo da disney">
-            </a>
-            <div>
+        <div class=" footer_conteudo">
+            <div class="logo">
+                <a>
+                    <img class="logo" src="./images/logo.svg" alt="Logo da disney">
+                </a>
+            </div>
+            <div class="links">
                 <a href="">Política de privacidade</a>
                 <a href="">Proteção de dados no Brasil</a>
                 <a href="">Contrato de Assinatura</a>
-                <a href="">Ajuda</a>
+
             </div>
-            <div>
-                <a href="">Dispositivos compatíveis</a>
-                <a href="">Sobre o Disney+</a>
-                <a href="">Anúncios personalizados</a>
-            </div>
-            <div>
+            <div class="texto">
                 <p>
                     Disney+ é um serviço pago,
                     baseado em assinatura e sujeito a termos e condições.
-                    O serviço Disney+ é comercializado por The Walt Disney Company 
-                    (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 00.000, 00.000, 00.000, Piso 00, 
+                    O serviço Disney+ é comercializado por The Walt Disney Company
+                    (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 00.000, 00.000, 00.000, Piso 00,
                     São Paulo/SP - CEP 0000-000, Brasil e CNPJ/M 00.000.000/0000-00
                 </p>
-            </div>
-            <div>
+
+
                 <p>&copy; Disney. Todos os direitos reservados.</p>
+
             </div>
         </div>
     </footer>
 </body>
 <script src="./scripts/header.js"></script>
+
 </html>

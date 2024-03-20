@@ -6,5 +6,6 @@ function scrollFunction() {
     } else {
         document.getElementById("header").classList.remove("header-scrolled");
     }
+
 }
 console.log("Olá")
